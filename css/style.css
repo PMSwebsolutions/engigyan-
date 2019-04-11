@@ -296,9 +296,38 @@ a.reqe-button {
     .nav_hny {
         margin-top: 1.5em;
     }
+    
+    
+    
 }
 
+@media all and (min-width : 1000px) {
+    .banner_main {
+    background: url(http://petrolpumpdealerships.co.in/assets/images/homebanner.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+
+    height: 38em;
+    }
+
+}
+
+
+
 @media all and (max-width : 991px) {
+    .banner_main {
+    background: url(http://petrolpumpdealerships.co.in/assets/images/homebanner.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+
+    height: 3em;
+}
     .nav_hny {
         margin-top: 0;
     }
@@ -594,15 +623,18 @@ a.login-button-2 span {
 /* //header 2 */
 
 /* banner */
+/*
 .banner_main {
-    background: url(../images/banner1.jpg) no-repeat center;
+    background: url(http://petrolpumpdealerships.co.in/assets/images/homebanner.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -moz-background-size: cover;
-    min-height: 38em;
+
+    height: 5em;
 }
+*/
 
 .overlay-vv {
     background: rgba(0, 0, 0, 0.38);

@@ -30,21 +30,23 @@
     <!-- //font-awesome-icons -->
     <!-- /Fonts -->
     <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     
+    <script src="js/logo.js"></script>
     <!-- //Fonts -->
 
 </head>
 
 <body>
     <!-- header -->
-    <header id="home">
+    <header id="home" class="container" >
         <!-- top-bar -->
         <div class="top-bar py-2">
             <div class="container">
                 <div class="row">
                     <h6 class="logo-vv float-left">
                 <a class="navbar-brand" href="index.html">
-                    <img src="images/logo.png" alt="" class="img-fluid logo-img">LPG and CNG GAS Dealer Chayan
+                    <img src="images/logo.JPG" alt="" style="max-height: 80px;" class="img-fluid logo-img">
 
 
                 </a>
@@ -59,13 +61,15 @@
     <!-- navigation -->
     <div class="main-top">
         <div class="container d-lg-flex">
-
+            
             <!-- nav -->
             <div class="nav_vv mx-lg-auto">
                 <nav>
-                    <label for="drop" class="toggle">Menu</label>
+                    <label for="drop" class="toggle"><i class="fa fa-bars"></i></label>
                     <input type="checkbox" id="drop" />
                     <ul class="menu mx-lg-auto">
+                        <li class="nav1">Toll Number: 0000-0000-0000</li>
+                        <li class="nav1">Lpg Number: 0000-0000-0000</li>
                         <li><a href="index.html" class="active">Home</a></li>
                         <li><a href="about-en.html">About Us</a></li>                    
                         <li><a href="apply-en.html">Apply Now</a></li>
@@ -87,32 +91,59 @@
             </div>
             <!-- //nav -->
             <!-- dwn -->
+            <div class="free-vv text-center" style="padding-bottom: 20px;">
+                <form class="form-inline">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+<!--
             <div class="free-vv text-center">
                 <a href="#contact" class="login-button-2 text-uppercase scroll mt-lg-0 mt-2">
                     Welcome to Gas Agency
                 </a>
             </div>
+-->
             <!-- //dwn -->
         </div>
     </div>
     <!-- //navigation -->
     <!-- //header 2 -->
 
-    <!-- banner -->
-    <div class="banner_main">
+    <div class="banner_main" style="padding-bottom: 100px;">
         <div class="overlay-vv">
             <div class="container">
-                <div class="banner-info text-center">
-                    <h5>The best dealers!</h5>
-                    <h3>LPG & CNG GAS CHAYAN DEALER <br><a href="apply-en.html" class="btn btn-lg btn-success">Apply Now ></a> </h3><br>                    
+                <div class="banner-info text-center" >
+                    <h3>Petrol Pump & Gas Agency Dealer Selection  <br><a href="apply-en.html" class="btn btn-lg btn-success">Apply Now ></a> </h3><br>                    
                 </div>
             </div>
         </div>
     </div>
     <!-- //banner -->
+    
+        <section id="about">
+        <div class="container py-md-5">
+            <div class="info-vv-mid text-left">
 
+                <div class="row mt-lg-5 mt-4">
+                    <div class="container" >
+                        <h4 style="color: red;">NOTICE: <marquee>Applicants are advised to make all payments like application fees, initial security deposit only through this website. Oil companies are not responsible for any payment made through any other mode/website.</marquee></h4>
+                        <br>
+                        <br>
+                        <h6>Last date for submission of application for the States of Bihar, West Bengal,Rajasthan, Telangana, Madhya Pradesh, Chattisgarh and Mizoram is 15.05.2019. Last date for submission of application for Other States/UTs are over. </h6>                  
+                        <br>
+                        <br>
+                        <h4>Dealerships for Regular & Rural Retail Outlets (Petrol Pump)</h4><br>
+                        <h6>Network expansion has been an important business activity of PSU Oil Marketing Companies (OMCs) for increasing the reach of petroleum products across the country. </h6>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
     <!-- banner bottom grids -->
-    <section class="about-bottom">
+    <section class="about-bottom" style="padding-top: 100px;">
         <div class="container pb-lg-4">
             <div class="feature-grids row mt-lg-5 mt-4">
                 <div class="col-lg-4 gd-bottom mt-4 p-sm-0">
@@ -214,9 +245,7 @@
                 <h3 class="title-hny mb-5 mb-4 text-center">Gas Agencies</h3>
             </div>
             <div class="row news-grids no-gutters text-center">
-                <div class="col-md-3 gal-img my-4">
-                    <a href="#gal1"><img src="images/g1.jpg" alt="Gallery Image" class="img-fluid"></a>
-                </div>
+  
                 <div class="col-md-6">
                     <div class="row no-gutters">
                         <div class="col-md-6 gal-img">
@@ -233,20 +262,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 gal-img my-4">
-                    <a href="#gal6"><img src="images/g6.jpg" alt="Gallery Image" class="img-fluid"></a>
-                </div>
+
             </div>
             <!-- gallery popups -->
-            <!-- popup-->
-            <div id="gal1" class="pop-overlay animate">
-                <div class="popup">
-                    <img src="images/g1.jpg" alt="Popup Image" class="img-fluid" />
-                    <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-                    <a class="close" href="#gallery">&times;</a>
-                </div>
-            </div>
-            <!-- //popup -->
+
             <!-- popup-->
             <div id="gal2" class="pop-overlay animate">
                 <div class="popup">
@@ -283,15 +302,7 @@
                 </div>
             </div>
             <!-- //popup -->
-            <!-- popup-->
-            <div id="gal6" class="pop-overlay animate">
-                <div class="popup">
-                    <img src="images/g6.jpg" alt="Popup Image" class="img-fluid" />
-                    <p class="mt-4">Nulla viverra pharetra se, eget pulvinar neque pharetra ac int. placerat placerat dolor.</p>
-                    <a class="close" href="#gallery">&times;</a>
-                </div>
-            </div>
-            <!-- //popup -->
+
             <!-- //gallery popups -->
         </div>
     </div>

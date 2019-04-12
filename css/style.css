@@ -654,7 +654,7 @@ a.login-button-2 span {
 }
 
 .banner-info h3 {
-    font-size: 3.5em;
+    font-size: 2.5em;
     letter-spacing: 1px;
     word-spacing: 6px;
     color: #fff;
@@ -1326,7 +1326,7 @@ a.move-top span {
     }
 
     .banner-info h3 {
-        font-size: 2.5em;
+        font-size: 1.5em;
     }
 
     .test-info {
@@ -1339,7 +1339,7 @@ a.move-top span {
 
 @media(max-width:640px) {
     .banner-info h3 {
-        font-size: 2.3em;
+        font-size: 2.8em;
     }
 
     .banner_main,
@@ -1354,7 +1354,7 @@ a.move-top span {
 
 @media(max-width:600px) {
     .banner-info h3 {
-        font-size: 2.2em;
+        font-size: 1.8em;
     }
 
     .blog-vv-grid {
@@ -1389,7 +1389,7 @@ a.move-top span {
     }
 
     .banner-info h3 {
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     .inner-sec-hny {
@@ -1421,7 +1421,7 @@ a.move-top span {
 
 @media(max-width:414px) {
     .banner-info h3 {
-        font-size: 1.8em;
+        font-size: 1.5em;
     }
 }
 

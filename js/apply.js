@@ -7,16 +7,18 @@ $(document).ready(function(){
 
 function applyViewModel(){
     var self = this;
-    self.name = ko.observable('');
-    self.company = ko.observable('');
-    self.investment = ko.observable('');
-    self.phone = ko.observable('');
-    self.address = ko.observable('');
+    self.name = ko.observable();
+    self.company = ko.observable();
+    self.investment = ko.observable();
+    self.phone = ko.observable();
+    self.address = ko.observable('fsadfsd');
     self.state = ko.observable();
     self.city = ko.observable();
     self.pincode = ko.observable();
+    self.email = ko.observable();
+    self.alt = ko.observable();
     self.apply = function(){
-        var dataString = 'name=' + self.name() + '&company=' + self.company() + '&investment=' + self.investment() + '&phone=' + self.phone() + '&address=' + self.address() + '&state=' + self.state() + '&city=' + self.city() + '&pincode=' + self.pincode();
+        var dataString = 'name=' + self.name() + '&company=' + self.company() + '&investment=' + self.investment() + '&phone=' + self.phone() + '&address=' + self.address() + '&state=' + self.state() + '&city=' + self.city() + '&pincode=' + self.pincode() + '&email=' + self.email() + '&alt=' + self.alt();
         $.ajax({
             type: "POST",
             url: "apply.php",

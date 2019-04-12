@@ -32,19 +32,19 @@
     <link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
     
     <!-- //Fonts -->
-
+    <script src="js/logo.js"></script>
 </head>
 
 <body>
     <!-- header -->
-    <header id="home">
+    <header id="home" class="container" >
         <!-- top-bar -->
         <div class="top-bar py-2">
             <div class="container">
                 <div class="row">
                     <h6 class="logo-vv float-left">
                 <a class="navbar-brand" href="index.html">
-                    <img src="images/logo.png" alt="" class="img-fluid logo-img">एलपीजी और सीएनजी गैस डीलर छायन 
+                    <img src="images/logo.JPG" alt="" style="max-height: 80px;" class="img-fluid logo-img">
 
 
                 </a>
@@ -55,43 +55,51 @@
     </header>
  
 
-    <!-- header 2 -->
+     <!-- header 2 -->
     <!-- navigation -->
     <div class="main-top">
         <div class="container d-lg-flex">
-
+            
             <!-- nav -->
             <div class="nav_vv mx-lg-auto">
                 <nav>
-                    <label for="drop" class="toggle">मेनू</label>
+                    <label for="drop" class="toggle"><i class="fa fa-bars"></i></label>
                     <input type="checkbox" id="drop" />
                     <ul class="menu mx-lg-auto">
-                        <li><a href="index-hi.html" class="active">घर</a></li>
+                        
+                        <li><a href="index-hi.html" class="active">होम</a></li>
                         <li><a href="about-hi.html">हमारे बारे में</a></li>                    
-                        <li><a href="apply-en.html">अभी लागू करें</a></li>
+                        <li><a href="apply.html">अभी अप्लाई करें</a></li>
                         <li><a href="contact-hi.html">हमसे संपर्क करें</a></li>
+<!--
                         <li>
-                            <!-- First Tier Drop Down -->
-                            <label for="drop-2" class="toggle toogle-2">भाषाओं<span class="fa fa-angle-down" aria-hidden="true"></span>
+                            
+                            <label for="drop-2" class="toggle toogle-2">Languages <span class="fa fa-angle-down" aria-hidden="true"></span>
                             </label>
-                            <a href="#">भाषाओं<span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                            <a href="#">Languages <span class="fa fa-angle-down" aria-hidden="true"></span></a>
                             <input type="checkbox" id="drop-2" />
                             <ul>
                                 <li><a href="index.html" class="drop-text">English</a></li>
-                                <li><a href="index-hi.html" class="drop-text">हिंदी</a></li>
+                                <li><a href="index-hi.html" class="drop-text">Hindi</a></li>
                                 <li><a href="index-ta.html" class="drop-text">தமிழ்</a></li>                                
                             </ul>
                         </li>
+-->
                     </ul>
                 </nav>
             </div>
             <!-- //nav -->
             <!-- dwn -->
-            <div class="free-vv text-center">
-                <a href="#contact" class="login-button-2 text-uppercase scroll mt-lg-0 mt-2">
-                    गैस एजेंसी में आपका स्वागत है
-                </a>
+            <div class="free-vv text-center" style="padding-bottom: 20px;">
+                <a href="index.html" style="color: black;text-decoration: underline;">English</a>&nbsp; <a style="color: black;text-decoration: underline;" href="index-ta.html">தமிழ்</a> &nbsp;<a  style="color: black;text-decoration: underline;" href="index-hi.html">हिंदी</a> &nbsp;&nbsp;
+
             </div>
+            <div class="free-vv text-center" style="padding-bottom: 20px;">
+                <form class="form-inline">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+
             <!-- //dwn -->
         </div>
     </div>
